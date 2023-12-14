@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body{
+    background-color: antiquewhite;
+}
+.newaconuntname{
+ text-align: center;
+}
+form{
+    margin-top: 50px;
+}
+#ユーザーネーム{
+    font-size: 20px;
+    text-align: center;
+}
+#パスワード{
+    font-size: 20px;
+    text-align: center;
+}

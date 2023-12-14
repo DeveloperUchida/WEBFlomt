@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>アカウント新規作成</title>
+</head>
+<body>
+<link href="newacontstyle.css" rel="stylesheet">
+<div class="newacountname">
+    <h2>アカウント新規作成</h2>
+</div>
+<form action="/login" method="post">
+    <label for="ユーザーネーム"><b></b></label>
+    <!-- id属性を追加 -->
+    <p><input type="text" placeholder="新規ユーザーネーム" name="ユーザーネーム" id="ユーザーネーム" required></p>
+
+    <label for="パスワード"><b></b></label>
+    <!-- id属性を追加 -->
+    <p><input type="password" placeholder="新規パスワード" name="パスワード" id="パスワード" required></p>
+
+    <button type="submit">新規作成</button>
+</form>
+</body>
+</html>
