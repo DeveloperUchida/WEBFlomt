@@ -9,6 +9,20 @@
 </head>
 <body>
 <link href="style.css" rel="stylesheet">
+<div class="logunUsername">
+    <h2>サイトへログイン</h2>
+    <form action="/login" method="post">
+        <label for="ユーザーネーム"><b></b></label>
+        <!-- id属性を追加 -->
+        <p><input type="text" placeholder="ユーザーネーム" name="ユーザーネーム" id="ユーザーネーム" required></p>
 
+        <label for="パスワード"><b></b></label>
+        <!-- id属性を追加 -->
+        <p><input type="password" placeholder="パスワード" name="パスワード" id="パスワード" required></p>
+
+        <button type="submit">ログイン</button>
+    </form>
+    <button type="submit">アカウント新規作成</button>
+</div>
 </body>
 </html>

@@ -2,3 +2,20 @@
 body{
     background-color: antiquewhite;
 }
+.loginText{
+    text-align: center;
+}
+.logunUsername{
+    text-align: center;
+}
+form{
+    margin-top: 50px;
+}
+#ユーザーネーム{
+    font-size: 20px;
+    text-align: center;
+}
+#パスワード{
+    font-size: 20px;
+    text-align: center;
+}
